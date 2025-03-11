@@ -1,0 +1,41 @@
+name: SuperFW documentation site build
+run-name: Builds the hugo static webdocs and publishes them
+
+on:
+  push:
+    branches: ["master"]
+
+# Allow gh-pages updates
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-webdocs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies
+        run: sudo apt-get install -y hugo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Build and generate website
+        run: hugo
+      - name: Upload generated webdocs
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public/
+
+  deploy-webdocs:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build-webdocs
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
