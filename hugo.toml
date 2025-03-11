@@ -1,0 +1,5 @@
+baseURL = 'https://superfw.davidgf.net/'
+languageCode = 'en-us'
+title = 'SuperFW - A modern and opensource custom firmware for SuperCard carts'
+theme = "compose"
+
