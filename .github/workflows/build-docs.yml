@@ -21,6 +21,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: true
+      - name: Insert analytics tracker
+        run: |
+          mkdir -p layouts/partials/hooks/
+          echo "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SKT9CMD4D5\"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-SKT9CMD4D5');</script>" >> layouts/partials/hooks/head.html
       - name: Build and generate website
         run: hugo
       - name: Upload generated webdocs
