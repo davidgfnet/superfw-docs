@@ -3,7 +3,7 @@
 
 uniqueHomePage = true # change to false to add sidebar to homepage
 
-repo = "https://github.com/davidgf/superfw-docs"
+repo = "https://github.com/davidgfnet/superfw-docs"
 
 time_format_blog = "Monday, January 02, 2006"
 time_format_default = "January 2, 2006"
@@ -36,7 +36,7 @@ global = false # turn to `true` to enable global search
   name = "GitHub"
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/davidgf/superfw-docs"
+  url = "https://github.com/davidgfnet/superfw-docs"
 
 [author]
   name = "davidgf.net"
