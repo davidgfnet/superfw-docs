@@ -99,8 +99,7 @@ that happens with low quality or older cards. Please test another card to ensure
 this is not a bad card.
 
 Corrupted SRAM save games can happen for many reasons: bad cart battery (see above),
-using SRAM with games that require 128KiB flash (use _Direct Saving_ for these),
-a corrupted SRAM chip (you can check yours in the _Tools_ menu, etc.
+a corrupted SRAM chip (you can check yours in the _Tools_ menu), etc.
 
 ### SD card issues
 

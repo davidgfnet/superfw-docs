@@ -56,8 +56,7 @@ so these games use a trick called _banking_. This memory is slower than
 SRAM but can hold the data without any battery (just like a thumb drive).
 
 Since Supercard also doesn't have any backup flash storage, we need to
-emulate this using SRAM. We do this using patching. This is not possible
-in the case of 128KiB flash, since Supercard only has 64KiB of _usable_ memory.
+emulate this using SRAM. We do this using patching.
 
 ### Saving mechanisms
 
@@ -76,7 +75,6 @@ storage. Any EEPROM/Flash games will be patched and _converted_ to use this
 memory. There's a few pros and cons of this approach:
 
  - It works with most games (SRAM, Flash, EEPROM)
- - Doesn't work with 128KiB flash games (ie. Pokemon)
  - Requires a reboot to write the savegame to the SD card (or using the in-game menu to save).
  - Might require a working battery if saving on reboot.
 
