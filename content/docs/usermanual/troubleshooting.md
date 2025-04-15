@@ -101,6 +101,22 @@ this is not a bad card.
 Corrupted SRAM save games can happen for many reasons: bad cart battery (see above),
 a corrupted SRAM chip (you can check yours in the _Tools_ menu), etc.
 
+### Missing or disabled features
+
+There's a bunch of issues related to limited support of certain features. A
+non-exhaustive list would be:
+
+ - Cannot use Direct-Saving with certain ROMs: Games that use SRAM save types
+   (or that are detected as such) can only use SRAM saving. ROMs that are very big
+   (32MiB) might not have enough room for the Direct-Saving payload and thus this
+   feature is not available to them.
+ - The In-Game menu cannot be enabled: ROMs that are 32MiB might not have enough
+   space in their memory map to inject the IGM. The IGM requires some non-trivial
+   amount of space (around 1MiB). This is a known limitation.
+ - Cheats cannot be enabled: To enable cheats you must enable them in the Settings
+   menu (you will see a message like "Cheats are globally disabled"). They might
+   still be disabled if no cheats were found or if the IGM is disabled.
+
 ### SD card issues
 
 Some SD cards are known to cause issues, usually cards of questionable quality.
