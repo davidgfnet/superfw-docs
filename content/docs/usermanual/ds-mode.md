@@ -25,13 +25,14 @@ work well and are useful. This list is merely informative and not exhaustive!
 Launcher            | Purpose                 | Website
 --------------------|-------------------------|--------------------------------------
 TWiLight Menu++     | Homebrew/Games launcher | [github.com/DS-Homebrew/TWiLightMenu](https://github.com/DS-Homebrew/TWiLightMenu)
+akmenu-next         | Homebrew/Games launcher | [github.com/coderkei/akmenu-next/](https://github.com/coderkei/akmenu-next)
 GodMode9i           | Homebrew launcher/Tools | [github.com/DS-Homebrew/GodMode9i](https://github.com/DS-Homebrew/GodMode9i)
 Homebrew Menu       | Homebrew launcher       | [devkitpro.org/wiki/Homebrew\_Menu](https://devkitpro.org/wiki/Homebrew_Menu)
 
 In most cases the installation consists in downloading the `.nds` file and
 renaming it to `BOOT.NDS` (and placing it at the root of the SD card).
 
-In the case of TwilightMenu++ please use the _Flashcard_ variant and unzip the
+In the case of TwilightMenu++/akmenu-next please use the _Flashcard_ variant and unzip the
 release into the SD card. Only the `BOOT.NDS` file and the `_nds` directory are
 actually needed for a successful installation on SuperFW.
 
