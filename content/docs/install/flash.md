@@ -46,9 +46,18 @@ You will need the following:
   - An non-HC SD card (those older low capacity cards, SDHC cards are not supported by the original firmware!)
   - The firmware (check the [download page]({{< ref "/docs/download/download.md" >}}))
 
+#### Identify your cartridge
+
+If you are unsure what kind of Supercard cartridge you have, please read the following indications:
+
+ - If your Supercard has a full-size SD card, it's a Supercard SD.
+ - If your Supercard has a mini-SD (not to be confused with a MicroSD), it's a Supercard SD.
+ - If your Supercard has a micro-SD card, and has the size of a GBA game (you can fit it in a GBA console), it's a Supercard SD.
+ - If your Supercard is smaller and can only fit in an NDS Lite console (usually labeled with the word "Lite" as well), it is either a Supercard Lite or a Supercard Rumble. ⚠️ SuperFW *does not support* Supercard Rumble.
+
 #### Preparation
 
-The SD card must be formated using FAT16 or FAT32 (exFAT is *not* compatible with the original firmware). Extract the `superfw.fw` and place it in the SD card. Create a copy of this file and rename it to `superfw.gba`.
+The SD card must be formated using FAT16 or FAT32 (exFAT is *not* compatible with the original firmware). Extract the `superfw-sd.fw` (if you have a Supercard SD) or `superfw-lite.fw` (if you have a Supercard Lite) and place it in the SD card. Create a copy of this file and rename it to `superfw.gba`.
 
 #### Install
 
@@ -56,7 +65,7 @@ The SD card must be formated using FAT16 or FAT32 (exFAT is *not* compatible wit
   - (Optional) Backup your current firmware using the _Tools_ menu. Select _Flash backup_ and backup the `.superfw/flash_backup-*.bin` file to your PC.
   - Navigate (using the _L_/_R_ shoulder buttons) to the _Info_ menu (the rightmost one).
   - Press the key combo _Down_ + _B_ + _Start_, you will see the message _Flashing is enabled_ at the bottom.
-  - Navigate back to the _File browser_ menu and locate the `superfw.fw` file. Press the _A_ button to open it.
+  - Navigate back to the _File browser_ menu and locate the `superfw-sd.fw`/`superfw-lite.fw` file. Press the _A_ button to open it.
   - You will see a pop up menu, proceed to flash with the key combo _L_ + _R_ + _Up_.
 
 It is very important that this process *is not interrupted* or the flash will be corrupted. It can take up to a couple of minutes to complete, you will see the info message updated on each flashing step (_Checking_, _Erasing_, _Flashing_, _Verifying_). Should the process fail, you might try again. Once flashed, shutdown and restart your device, it should boot SuperFW.
@@ -79,13 +88,15 @@ You will need the following:
 
 #### Preparation
 
-Copy both the SuperFW firmware file `superfw.fw` and the DS flash tool `superfw-flasher.nds` to the SD card. Insert it in your Slot-1 cartridge. Load both carts in their respective slots and boot your DS in DS-mode.
+Copy both the SuperFW firmware file (`superfw-sd.fw` or `superfw-lite.fw`) and the DS flash tool (`superfw-flasher-sd.nds` or `superfw-flasher-lite.nds`) to the SD card. Insert it in your Slot-1 cartridge. Load both carts in their respective slots and boot your DS in DS-mode.
+
+⚠️ Please ensure that you *do not* own a Supercard Rumble, they are *not* supported.
 
 #### Install
 
-  - Boot the `superfw-flasher.nds` flash tool using your Slot-1 cart.
+  - Boot the `superfw-flasher-*.nds` flash tool using your Slot-1 cart.
   - (Optional) Backup your current/original firmware. Use the _Dump flash_ option. Backup `sc_flash_dump.bin` to your PC.
-  - Use the _Write flash_ option and locate the SuperFW image `superfw.fw`. Select it using _A_ button.
+  - Use the _Write flash_ option and locate the SuperFW image `superfw-sd.fw`/`superfw-lite.fw`. Select it using _A_ button.
   - Press the key combo _L_ + _R_ + _A_ to start flashing. Do not interrupt this process!
 
 You might reboot into GBA mode to verifiy that the new firmware is now working.

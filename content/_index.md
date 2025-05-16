@@ -27,8 +27,9 @@ SuperFW is a modern and opensource custom firmware for the Supercard.
 
 ## Compatibility
 
-SuperFW is only compatible with the regular Supercard SD/MiniSD/MicroSD variant.
-The Compact Flash variant and the _Lite_ / _Rumble_ smaller variants are *not* compatible.
+SuperFW is compatible with the regular Supercard SD/MiniSD/MicroSD variant as
+well as the smaller _Lite_ version. The Compact Flash variant and the _Rumble_
+variants are *not* compatible.
 
 SuperFW works well with most commercial GBA games as well as most homebrew.
 

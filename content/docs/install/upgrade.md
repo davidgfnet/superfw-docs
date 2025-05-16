@@ -23,7 +23,7 @@ To update just follow the same steps as a fresh install:
   - Boot SuperFW as you usually do.
   - Navigate (using the _L_/_R_ shoulder buttons) to the _Info_ menu.
   - Press the key combo _Down_ + _B_ + _Start_, you will see the message _Flashing is enabled_ at the bottom.
-  - Navigate back to the _File browser_ menu and locate the `superfw.fw` file. Press the _A_ button to open it.
+  - Navigate back to the _File browser_ menu and locate the `superfw-sd.fw` or `superfw-lite.fw` file. Press the _A_ button to open it.
   - You should see the firmware image version you are about to update to. Ensure it is the intended one.
   - Proceed to flash with the key combo _L_ + _R_ + _Up_.
 

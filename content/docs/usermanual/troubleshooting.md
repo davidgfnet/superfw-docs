@@ -45,6 +45,9 @@ carts might suffer from slowness. This cannot usually be fixed. However
 some games can suffer from additional slowdowns when using the _In-game menu_.
 You can try disabling it and checking if this improves the game speed.
 
+Another option for GBA devices is to enable EWRAM overclock, see
+[EWRAM overclock]({{< ref "config.md#ewram-overclock" >}}) for more information.
+
 #### Corrupted ROMs and random glitches
 
 SuperFW does not validate ROM checksums (nor SD card checksums) when loading

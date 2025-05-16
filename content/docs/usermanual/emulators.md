@@ -8,7 +8,8 @@ How to install and use emulators for GBA using SuperFW.
 
 SuperFW supports certain console emulators for the GBA. In fact, it ships a
 built-in copy of Jagoomba Color so that it can load and play GameBoy
-and GameBoy Color ROMs out of the box.
+and GameBoy Color ROMs out of the box (except for Supercard Lite version,
+which requires you to install it).
 
 For other emulators it is necessary to download and install them in the SD
 card.
@@ -24,6 +25,7 @@ Game Gear           | SMS Advance / DrSMS | `.gg`     |
 NeoGeo Pocket Color | NGPGBA              | `.ngc`    | [github.com/FluBBaOfWard/NGPGBA](https://github.com/FluBBaOfWard/NGPGBA)
 Watara Supervision  | WasabiGBA           | `.sv`     | [github.com/FluBBaOfWard/WasabiGBA](https://github.com/FluBBaOfWard/WasabiGBA)
 Game Boy (Color)    | Goomba(Color)       | `.gb/gbc` | [dwedit.org/gba/goombacolor.php](https://www.dwedit.org/gba/goombacolor.php)
+PC Engine (PCE)     | PCEAdvance          | `.pce`    | [github.com/patters-match/pceadvance](https://github.com/patters-match/pceadvance)
 
 ### Installation
 
@@ -31,14 +33,16 @@ Installing the emulators is as simple as downloading the release binary
 (a .gba ROM file) and copying it to the `.superfw/emulators/` directory.
 The files must have the right name so they can be found by SuperFW, namely:
 
-Emulator      | File            | Download link                                      | Mirror
---------------|-----------------|----------------------------------------------------|----------------------------------------
-PocketNES     | pocketnes.gba   | https://www.dwedit.org/gba/pocketnes.php           |
-SMS Advance   | smsadvance.gba  | https://archive.org/download/smsadvance-25-bin ⚠️  | [v2.5 patched](/downloads/smsadvance-2.5-sc-patched.gba)
-DrSMS         | drsms.gba       | https://www.webpersona.com/drsms/downloads.html ⚠️ | [v6.0 patched](/downloads/drsms-6.0-sc-patched.gba)
-NGPGBA        | ngpgba.gba      | https://github.com/FluBBaOfWard/NGPGBA/releases    |
-WasabiGBA     | wasabigba.gba   | https://github.com/FluBBaOfWard/WasabiGBA/releases |
-Goomba        | gbc-emu.gba     | https://www.dwedit.org/gba/goombacolor.php         |
+Emulator      | File            | Download link                                        | Mirror
+--------------|-----------------|------------------------------------------------------|----------------------------------------
+PocketNES     | pocketnes.gba   | https://www.dwedit.org/gba/pocketnes.php             |
+SMS Advance   | smsadvance.gba  | https://archive.org/download/smsadvance-25-bin ⚠️    | [v2.5 patched](/downloads/smsadvance-2.5-sc-patched.gba)
+DrSMS         | drsms.gba       | https://www.webpersona.com/drsms/downloads.html ⚠️   | [v6.0 patched](/downloads/drsms-6.0-sc-patched.gba)
+NGPGBA        | ngpgba.gba      | https://github.com/FluBBaOfWard/NGPGBA/releases      |
+WasabiGBA     | wasabigba.gba   | https://github.com/FluBBaOfWard/WasabiGBA/releases   |
+Goomba        | gbc-emu.gba     | https://www.dwedit.org/gba/goombacolor.php           |
+PCEAdvance    | pceadvance.gba  | https://github.com/patters-match/pceadvance/releases | [v7.5 patched](/downloads/pceadvance-v75SC-patched.gba)
+
 
 {{< tip "warning" >}}
 
@@ -56,7 +60,8 @@ when launching a ROM.
 {{< tip "note" >}}
 
 Note that there's no need to install Goomba (or any fork, GoombaColor, JagoombaColor ...)
-to play GB/GBC games, SuperFW has a built-in JagoombaColor copy. However you are free
+to play GB/GBC games, SuperFW has a built-in JagoombaColor copy (unless you are using
+the SC Lite, in this case there's not built-in copy sorry!). However you are free
 to install your favourite emulator/fork and it will take preference over the
 built-in emulator.
 
