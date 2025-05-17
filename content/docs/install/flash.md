@@ -57,7 +57,7 @@ If you are unsure what kind of Supercard cartridge you have, please read the fol
 
 #### Preparation
 
-The SD card must be formated using FAT16 or FAT32 (exFAT is *not* compatible with the original firmware). Extract the `superfw-sd.fw` (if you have a Supercard SD) or `superfw-lite.fw` (if you have a Supercard Lite) and place it in the SD card. Create a copy of this file and rename it to `superfw.gba`.
+The SD card must be formated using FAT16 or FAT32 (exFAT is *not* compatible with the original firmware). Download the `superfw-sd.fw` (if you have a Supercard SD) or `superfw-lite.fw` (if you have a Supercard Lite) file and place it in the SD card. Create a copy of this file and rename it to `superfw.gba`.
 
 #### Install
 

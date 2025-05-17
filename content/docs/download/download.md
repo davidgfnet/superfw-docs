@@ -7,7 +7,7 @@ Explains how to flash a new update to the internal flash memory.
 +++
 
 SuperFW can be downloaded from the [Github release page](https://github.com/davidgfnet/superfw/releases).
-Download the `superfw.zip` file to install or upgrade your Supercard.
+Download the `superfw-sd.fw` or `superfw-lite.fw` file to install or upgrade your Supercard.
 
 ### Useful tools
 
