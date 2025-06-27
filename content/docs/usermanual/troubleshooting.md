@@ -28,6 +28,12 @@ already.
 
 ### ROM issues
 
+Some games might not work, this is particularly true for ROM hacks and
+homebrew. If some commercial game does not work you can report it in the
+compatibility website: https://compat-superfw.davidgf.net/ (please provide
+the correct game, version and enough details, also feel free to report
+games that work, either perfectly or with caveats, it really helps!).
+
 #### Boot issues (white/black screen)
 
 Supercard has slow memory and requires certain patches to work with this
