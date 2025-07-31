@@ -44,6 +44,9 @@ Ensure you are using the correct patches (for commercial games use the
 _Built-in database_). The patches are auto-generated, so it is possible
 that they contain bugs.
 
+Try disabling the _In-game menu_. Some games are just not compatible with
+it.
+
 #### Slowness while playing
 
 Since Supercard has a slow cart memory, some games designed for faster
