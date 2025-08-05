@@ -66,7 +66,7 @@ etc. If this only happens occasionally it might be that your cart is not
 properly inserted, or the slot is dirty. It can also be due to low-quality
 SD cards, check if another card works better. Some GBA models are known to
 have issues even with the original firmware (usually the SP or NDS devices
-work better).
+work better). You can try disabling [Fast ROM loading]({{< ref "config.md#fast-rom-loading" >}}), this is known to fix issues with some devices and carts (albeit at a reduced loading speed).
 
 #### Game boy / Color ROM issues
 
