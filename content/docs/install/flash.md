@@ -88,13 +88,14 @@ You will need the following:
 
 #### Preparation
 
-Copy both the SuperFW firmware file (`superfw-sd.fw` or `superfw-lite.fw`) and the DS flash tool (`superfw-flasher-sd.nds` or `superfw-flasher-lite.nds`) to the SD card. Insert it in your Slot-1 cartridge. Load both carts in their respective slots and boot your DS in DS-mode.
+Copy both the SuperFW firmware file (`superfw-sd.fw` or `superfw-lite.fw`) and the DS flash tool (`superfw-flasher.nds`) to the SD card. Insert it in your Slot-1 cartridge. Load both carts in their respective slots and boot your DS in DS-mode.
 
 ⚠️ Please ensure that you *do not* own a Supercard Rumble, they are *not* supported.
 
 #### Install
 
-  - Boot the `superfw-flasher-*.nds` flash tool using your Slot-1 cart.
+  - Boot the `superfw-flasher.nds` flash tool using your Slot-1 cart.
+  - Select the correct flash cart type (ie. Lite, SD, etc).
   - (Optional) Backup your current/original firmware. Use the _Dump flash_ option. Backup `sc_flash_dump.bin` to your PC.
   - Use the _Write flash_ option and locate the SuperFW image `superfw-sd.fw`/`superfw-lite.fw`. Select it using _A_ button.
   - Press the key combo _L_ + _R_ + _A_ to start flashing. Do not interrupt this process!
