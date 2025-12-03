@@ -61,15 +61,10 @@ hacks and homebrew based on commercial games (ie. Pokemon Hacks/Homebrew).
 
 ### Playing ROM hacks and/or forks
 
-Many ROM hacks and forks (like Pokemon homebrew and hacks) use the same Game ID
-and version as the official release. This is an issue when using the Patch Database
-which will load patches for the official release. For some ROM hacks this might be
-fine (since they might not patch the base code but rather add more content) but
-for modern forks this usually doesn't work at all (these games are built from
-scratch using reversed source code and modern compilers).
-
-When using ROM hacks we recommend to generate patches and *not* use the patch
-database.
+When playing derived games (non official forks or romhacks) SuperFW will
+attempt to use the "official" patches, which doesn't work most of the time.
+If the ROM hack is a full build (like may Pokemon romhacks) it is very likely
+it won't work. For these games you should _generate new patches_. See below.
 
 {{< /tip >}}
 
@@ -77,19 +72,28 @@ database.
 Patch generation
 ----------------
 
-While it is possible to generate a _Patch Database_ yourself, we do not recommend it
-since it is quite complex. In general, it is better to use patches for specific
-games that require it, and use the built-in database for commercial games.
+It is possible to generate your own patches (recommended when playing a non-official game)
+by using the built-in PatchEngine or the web-based patch generator.
 
-Patches for a specific ROM can be generated using the PatchEngine. The resulting
-patch will be cached under the `/.superfw/patches` directory so that it can be
-reused in the future.
+The built-in PatchEngine is quite slow and not very capable. It is fine for most
+homebrew games, simple ROM hacks (ie. translations) or if your ROM is not in the
+database. Run the patch generator and it will produce a patch file under the
+ `/.superfw/patches` directory so that it can be reused in the future.
 
 ![Patch engine option in the ROM load menu](/images/screenshots/menu-load-patchengine.png)
 
 Patches might also be generated using the [web-based patch generator tool](https://patchtool.superfw.davidgf.net/)
 and placed in the aforementioned cache directory or next to the ROM file
-using the `.patch` extension.
+using the `.patch` extension (or under `/.superfw/patches`).
 
+{{< tip "info" >}}
+
+### Using the web-based patch generation tool
+
+We strongly recommend using the web-based tool for patch generation. It is quite slow
+but it generates the highest quality patches. It can however fail to produce useful
+patches in some cases, some games can't simply be fixed for SuperCard devices.
+
+{{< /tip >}}
 
 

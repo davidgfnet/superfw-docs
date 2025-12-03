@@ -34,6 +34,22 @@ compatibility website: https://compat-superfw.davidgf.net/ (please provide
 the correct game, version and enough details, also feel free to report
 games that work, either perfectly or with caveats, it really helps!).
 
+#### My game doesn't work
+
+If you are playing a non-official game, you might be using bad patches.
+Go ahead and generate good patches (see [patch generation]({{< ref "/docs/usermanual/patches.md#patch-generation" >}})).
+
+If you are playing some officially released game, try disabling certain
+SuperFW features:
+
+ - Disable RTC support (if enabled)
+ - Disable the IGM (In-game menu)
+ - Do not use _Direct Saving_, use SRAM based saves instead.
+
+Try all of the above (sometimes it's more than one feature that doesn't work).
+Check the above mentioned compatibility website, see if someone has reported
+it and has documented any workaround.
+
 #### Boot issues (white/black screen)
 
 Supercard has slow memory and requires certain patches to work with this
