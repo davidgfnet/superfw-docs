@@ -48,12 +48,27 @@ You will need the following:
 
 #### Identify your cartridge
 
-If you are unsure what kind of Supercard cartridge you have, please read the following indications:
+If you are unsure what kind of Supercard cartridge you have, please read carefully.
 
- - If your Supercard has a full-size SD card, it's a Supercard SD.
- - If your Supercard has a mini-SD (not to be confused with a MicroSD), it's a Supercard SD.
- - If your Supercard has a micro-SD card, and has the size of a GBA game (you can fit it in a GBA console), it's a Supercard SD.
- - If your Supercard is smaller and can only fit in an NDS Lite console (usually labeled with the word "Lite" as well), it is either a Supercard Lite or a Supercard Rumble. ⚠️ SuperFW *does not support* Supercard Rumble.
+ - If the device has the word "rumble" on the label, this is incompatible with SuperFW.
+ - If it's an NDS-lite sized cart, it's the "Lite" variant (be careful not to confuse it with a Lite Rumble!)
+ - If it uses Compact Flash carts, it's a SuperCard CF, incompatible with SuperFW.
+ - Otherwise (that is, no Rumble, no CF, and no Lite) it's a Supercard SD (either full size SD, or MiniSD or MicroSD).
+
+  You can check the following image to better identify your cart.
+  Compatible carts are displayed in green, incompatible ones in red.
+  (Click to enlarge)
+
+  [![Supercard cart collection](/images/cart_overview_thumb.jpg)](/images/cart_overview.jpg)
+
+{{< tip "warning" >}}
+
+Flashing the wrong firmware will brick your cart. Make sure to use the right one
+and, in doubt, test the firmware before flashing it.
+You can always use an NDS console to unbrick any flash cart.
+
+{{< /tip >}}
+
 
 #### Preparation
 
@@ -90,7 +105,7 @@ You will need the following:
 
 Copy both the SuperFW firmware file (`superfw-sd.fw` or `superfw-lite.fw`) and the DS flash tool (`superfw-flasher.nds`) to the SD card. Insert it in your Slot-1 cartridge. Load both carts in their respective slots and boot your DS in DS-mode.
 
-⚠️ Please ensure that you *do not* own a Supercard Rumble, they are *not* supported.
+⚠️ Please ensure that you have a *compatible cart* and you are flashing *the correct firmware*.
 
 #### Install
 
