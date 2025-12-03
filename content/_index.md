@@ -31,7 +31,9 @@ SuperFW is compatible with the regular Supercard SD/MiniSD/MicroSD variant as
 well as the smaller _Lite_ version. The Compact Flash variant and the _Rumble_
 variants are *not* compatible.
 
-SuperFW works well with most commercial GBA games as well as most homebrew.
+SuperFW works well with most commercial GBA games as well as most homebrew. It
+can support some ROM hacks and similar derived games using its powerful
+patching tool.
 
 {{< /column >}}
 {{< /block >}}
