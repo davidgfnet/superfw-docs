@@ -44,31 +44,10 @@ You will need the following:
   - GBA or DS device
   - Supercard cart
   - An non-HC SD card (those older low capacity cards, SDHC cards are not supported by the original firmware!)
-  - The firmware (check the [download page]({{< ref "/docs/download/download.md" >}}))
+  - The *right* firmware (check the [download page]({{< ref "/docs/download/download.md" >}}))
 
-#### Identify your cartridge
-
-If you are unsure what kind of Supercard cartridge you have, please read carefully.
-
- - If the device has the word "rumble" on the label, this is incompatible with SuperFW.
- - If it's an NDS-lite sized cart, it's the "Lite" variant (be careful not to confuse it with a Lite Rumble!)
- - If it uses Compact Flash carts, it's a SuperCard CF, incompatible with SuperFW.
- - Otherwise (that is, no Rumble, no CF, and no Lite) it's a Supercard SD (either full size SD, or MiniSD or MicroSD).
-
-  You can check the following image to better identify your cart.
-  Compatible carts are displayed in green, incompatible ones in red.
-  (Click to enlarge)
-
-  [![Supercard cart collection](/images/cart_overview_thumb.jpg)](/images/cart_overview.jpg)
-
-{{< tip "warning" >}}
-
-Flashing the wrong firmware will brick your cart. Make sure to use the right one
-and, in doubt, test the firmware before flashing it.
-You can always use an NDS console to unbrick any flash cart.
-
-{{< /tip >}}
-
+Please make sure you are using the correct firmware version, if you are unsure check
+[how to identify your cart]({{< ref "/docs/download/download/#identify-your-cartridge" >}})
 
 #### Preparation
 
@@ -98,7 +77,7 @@ You will need the following:
   - Supercard cart
   - A Slot-1 cartridge (any cheap DS cart will do, like any R4 clone/derivative)
   - An SD card (any card that works on your Slot-1 cart, you don't need an SD card for the Supercard for this operation)
-  - The firmware (check the [download page]({{< ref "/docs/download/download.md" >}}))
+  - The *right* firmware (check the [download page]({{< ref "/docs/download/download.md" >}}))
   - The DS flash tool ([download the latest release](https://github.com/davidgfnet/superfw-nds-flasher-tool/releases))
 
 #### Preparation
