@@ -82,18 +82,31 @@ database. Run the patch generator and it will produce a patch file under the
 
 ![Patch engine option in the ROM load menu](/images/screenshots/menu-load-patchengine.png)
 
-Patches might also be generated using the [web-based patch generator tool](https://patchtool.superfw.davidgf.net/)
-and placed in the aforementioned cache directory or next to the ROM file
-using the `.patch` extension (or under `/.superfw/patches`).
+Patches can also be generated using the web-based patch generator tool, which is
+highly recommended. See the section below for more information.
 
-{{< tip "info" >}}
+Web-based patch generation tool
+-------------------------------
 
-### Using the web-based patch generation tool
+You can generate patches (ie. for homebrew or ROM hacks) using the
+[web-based patch generator tool](https://patchtool.superfw.davidgf.net/), which produces
+higher quality patches (albeit not perfect).
 
-We strongly recommend using the web-based tool for patch generation. It is quite slow
-but it generates the highest quality patches. It can however fail to produce useful
-patches in some cases, some games can't simply be fixed for SuperCard devices.
+To use it, simply pick the GBA ROM you want to process and press the button. It can
+take some significant amount of time (up to 5 minutes, depending on the game and PC).
+The tool will generate a `.patch` file you can download and place, as usual, in the
+`/.superfw/patches` directory or next to the ROM file (must have the same name but
+the `.patch` extension).
 
-{{< /tip >}}
+#### Using symbol (.sym) files
+
+Some homebrew developers might provide a symbol file (a text file that has a `.sym`
+extension usually) along with the ROM, that can be used to generate high quality patches
+for SuperFW. You might need to ask around, since these files are not usually
+distributed. Also note that these files are different for every ROM version
+or revision (ie. you cannot use the sym file from another game or version).
+
+To use this file, check out the _Advanced_ button where you can also load a sym
+file along with the ROM, and click Generate.
 
 
