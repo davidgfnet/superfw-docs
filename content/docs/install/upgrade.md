@@ -14,6 +14,11 @@ Updating the firmware has similar risks to a fresh install. Ensure you charge yo
 
 {{< /tip >}}
 
+## Getting the latest release
+
+You can get the latest (and any previous) release at the [Github release page](https://github.com/davidgfnet/superfw/releases).
+For more information on identifying your cart, any extra downloads, etc. check the [download docs]({{< ref "/docs/download/download.md" >}}).
+
 ## Installing a new release
 
 You can update (or downgrade) your SuperFW at any time. Certain releases could result in incompatiblity issues with games, patches and savestates, ensure you read the release notes! Downgrading to beta releases is not recommended nor supported.
@@ -35,7 +40,7 @@ Do not rely on this feature, always double check that you are using the right ve
 
 ## Flashing on DS
 
-You might update your SuperFW firmware using the [DS flash tool](https://github.com/davidgfnet/superfw-nds-flasher-tool/releases), check the [Firmware flashing](flash.md) instructions.
+You might update your SuperFW firmware using the [DS flash tool](https://github.com/davidgfnet/superfw-nds-flasher-tool/releases), check the [Firmware flashing]({{< ref "/docs/install/flash.md" >}})) instructions.
 
 
 ## Downgrading / Restoring original firmware

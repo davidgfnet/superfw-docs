@@ -36,6 +36,8 @@ You can always use an NDS console to unbrick any flash cart.
 If you have a cart that already comes with SuperFW pre-installed (like some chinese sellers seem to do)
 you can check the Info tab. The variant is shown there.
 
+![Info page showing SD variant](/images/screenshots/variant-sd.png)
+
 ### Useful tools
 
 You can find other tools or related software like:
