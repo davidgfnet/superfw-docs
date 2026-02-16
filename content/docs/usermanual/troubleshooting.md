@@ -73,6 +73,10 @@ You can try disabling it and checking if this improves the game speed.
 Another option for GBA devices is to enable EWRAM overclock, see
 [EWRAM overclock]({{< ref "config.md#ewram-overclock" >}}) for more information.
 
+If you own a cart that has internal flash (ie. a SuperChis), you might want
+to [flash the ROM to its internal memory]({{< ref "norflash.md" >}})
+and launch it from there.
+
 #### Corrupted ROMs and random glitches
 
 SuperFW does not validate ROM checksums (nor SD card checksums) when loading
