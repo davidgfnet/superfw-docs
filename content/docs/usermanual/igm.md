@@ -103,3 +103,10 @@ during cut scenes, loading screens or black/white transition screens).
 The menu might have disabled options and submenus. This is normal depending
 on the game loaded and the configuration selected (save type, cheats available, etc).
 
+After closing the menu and going back to the game, some UI elements might be
+out of place. This is usually a graphics issue and should not affect the game
+itself (just the rendering of some elements). This is a known issue and it's due
+to the impossibility of restoring the correct scroll registers. These registers
+are write-only, so we can't do much about this. Try opening a menu (ie. pause
+menu) or entering/leaving a game zone, they usually get fixed after that.
+
