@@ -22,7 +22,7 @@ the game needs.
 #### SRAM / FRAM
 
 This saving mechanism was very popular in the GameBoy / GB Color era. The
-cart has an SRAM/FRAM chip that hols all the saved data. For SRAM chips,
+cart has an SRAM/FRAM chip that holds all the saved data. For SRAM chips,
 the cart requires a coin battery, since SRAM is a volatile memory type. It
 usually holds 32KiB of data.
 
