@@ -75,7 +75,7 @@ Another option for GBA devices is to enable EWRAM overclock, see
 
 If you own a cart that has internal flash (ie. a SuperChis), you might want
 to [flash the ROM to its internal memory]({{< ref "norflash.md" >}})
-and launch it from there.
+and launch it from there. This can reduce slowdown for some games.
 
 #### Corrupted ROMs and random glitches
 
