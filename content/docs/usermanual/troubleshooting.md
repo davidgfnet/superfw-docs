@@ -167,7 +167,7 @@ fails an error will be displayed.
 Error name             | Number | Description
 -----------------------|--------|---------------------------------------------------
 `SD_ERR_NO_STARTUP`    |   1    | SD card failed reset sequence. Damaged SD card?
-`SD_ERR_BAD_IDENT`     |   2    | Card identification failed. Incompatible SD card?
+`SD_ERR_BAD_IDENT`     |   2    | Card identification failed. SD card missing or incompatible SD card?
 `SD_ERR_BAD_INIT`      |   3    | Failed initialization sequence (CID/RCA registers).
 `SD_ERR_BAD_CAP`       |   4    | Could not read card capabilities (CSD register).
 `SD_ERR_BAD_MODEXCH`   |   5    | Could not change SD card mode.
