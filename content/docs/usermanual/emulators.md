@@ -73,8 +73,18 @@ To use any of the emulators, simply browse the desired ROM (as you do with GBA R
 and press _A_ to load it. SuperFW will load the emulator binary as well as the ROM
 and launch it.
 
+#### Save games
+
 Most GBA emulators assume that the cartridge has SRAM storage, for the purposes of
 storing savegames as well as savestates (if/whenever they are supported). SuperFW
 will write the SRAM contents to a `.sav` file on reboot, to preserve its contents.
 
+For some emulators like GoombaColor / PocketNES / SMSAdvance you will need to exit the
+emulator gracefully to ensure the save game is written correctly: press _L+R_ and pick
+_Exit_ and the emulator will reset your GBA. You should see the game being saved to the
+SD card, once that is complete, you might shut down your device.
+
+These emulators usually use a non-standard save format, specific to them. If you need to
+convert from/to a regular (raw) format, you might wanna use a converter (for instance
+https://savefileconverter.com/#/flash-carts by picking GBA and your emulator name).
 
