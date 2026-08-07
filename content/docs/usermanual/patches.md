@@ -32,7 +32,7 @@ There's several patching processes that SuperFW does to GBA ROMs:
    and only really used when said menu is enabled.
  - *RTC* patches: Only used for a handful of games that require RTC emulation.
 
-All these patches are generated and used toghether. When we talk about _patches_
+All these patches are generated and used together. When we talk about _patches_
 we refer to a mixture of these types of patches.
 
 Using and loading patches
