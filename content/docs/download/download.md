@@ -10,10 +10,14 @@ SuperFW can be downloaded from the [Github release page](https://github.com/davi
 Download the `.fw` file for your cartridge and install or upgrade your Supercard. Make sure you pick
 the right version for your cart, if you are unsure, keep reading.
 
+SuperFW comes in three flavours: "sd", "lite" and "chis". It's important that you pick the correct
+version, *otherwise you will brick your cartridge*.
+
 ### Identify your cartridge
 
 To properly identify what kind of Supercard cartridge you have follow the following steps carefully.
 
+ - If your cartridge is called/labeled "Super Chis" you have the "chis" variant.
  - If the device has the word "rumble" on the label, this is *incompatible* with SuperFW.
  - If it's an NDS-lite sized cart, it's the "Lite" variant (be careful not to confuse it with a Lite Rumble!)
  - If it uses [Compact Flash](https://en.wikipedia.org/wiki/CompactFlash) cards, it's a SuperCard CF, incompatible with SuperFW.
