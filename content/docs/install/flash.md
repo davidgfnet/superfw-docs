@@ -55,6 +55,7 @@ The SD card must be formated using FAT16 or FAT32 (exFAT is *not* compatible wit
 
 #### Install
 
+  - Ensure you have plenty of battery before starting the process.
   - Boot the Supercard firmware and load the `superfw.gba` ROM. It will boot SuperFW.
   - (Optional) Backup your current firmware using the _Tools_ menu. Select _Flash backup_ and backup the `.superfw/flash_backup-*.bin` file to your PC.
   - Navigate (using the _L_/_R_ shoulder buttons) to the _Info_ menu (the rightmost one).
@@ -62,7 +63,7 @@ The SD card must be formated using FAT16 or FAT32 (exFAT is *not* compatible wit
   - Navigate back to the _File browser_ menu and locate the `superfw-sd.fw`/`superfw-lite.fw` file. Press the _A_ button to open it.
   - You will see a pop up menu, proceed to flash with the key combo _L_ + _R_ + _Up_.
 
-It is very important that this process *is not interrupted* or the flash will be corrupted. It can take up to a couple of minutes to complete, you will see the info message updated on each flashing step (_Checking_, _Erasing_, _Flashing_, _Verifying_). Should the process fail, you might try again. Once flashed, shutdown and restart your device, it should boot SuperFW.
+It is very important that this process *is not interrupted* or the flash will be corrupted. It can a few minutes to complete (in some cartridges like SuperChis this could be very slow, please be patient). You will see the info message updated on each flashing step (_Checking_, _Erasing_, _Flashing_, _Verifying_). Should the process fail, you might try again. Once flashed, shutdown and restart your device, it should boot SuperFW.
 
 
 ## Flashing on DS
