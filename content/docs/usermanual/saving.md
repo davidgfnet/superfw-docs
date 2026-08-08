@@ -106,7 +106,7 @@ any `.sav` file.
 To use this method, ensure that you choose _SRAM_ as save type and _Manual_
 as both load and save mechanisms. SuperFW won't load nor store any SRAM data.
 
-![Manual SRAM handling](/images/screenshots/igm-save-sram-manual.png)
+![Manual SRAM handling](/images/screenshots/menu-load-save-manual)
 
 You can also choose from a bunch of possibilities. For savegame load you can
 specify:
