@@ -12,7 +12,8 @@ and GameBoy Color ROMs out of the box (except for Supercard Lite version,
 which requires you to install it).
 
 For other emulators it is necessary to download and install them in the SD
-card.
+card. The "chis" variant ships built-in emulators for most platforms, so you
+don't have to install them in order to use them.
 
 ### Compatible emulators
 
